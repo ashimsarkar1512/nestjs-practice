@@ -11,4 +11,3 @@ export class AuthGuard implements CanActivate {
     return authHeader === 'Bearer my-secret-token';
   }
 }
-
